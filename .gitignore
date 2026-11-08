@@ -1,0 +1,79 @@
+
+# ==============================
+# .NET Build Outputs
+# ==============================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+publish/
+
+# ==============================
+# Visual Studio
+# ==============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==============================
+# JetBrains Rider
+# ==============================
+.idea/
+*.sln.iml
+
+# ==============================
+# NuGet
+# ==============================
+*.nupkg
+*.snupkg
+.nuget/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+[Ll]og/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.*.local.json
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Test Results
+# ==============================
+[Tt]est[Rr]esult*/
+[Bb]enchmarkDotNet.Artifacts/
+
+# ==============================
+# Coverage
+# ==============================
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.swp
